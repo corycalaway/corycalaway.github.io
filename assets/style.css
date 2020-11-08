@@ -2,6 +2,7 @@
     --primary-color: #39a6b2;
     --secondary-color: #042536;
     --tertiary-color: #12171dd7;
+    --quaternary-color: #1a526e;
   }
   
   /* remove default margins and padding */
@@ -11,6 +12,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--quaternary-color);
+}
 /* flex box */
 .flex-row {
     display: flex;
@@ -91,9 +95,33 @@ header nav ul li a:hover {
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
+      margin-bottom: 15px;
   }
+/* sections */
+.section-title {
+    font-size: 38px;
+    color: var(--primary-color);
+    border-right: 3px solid;
+    padding: 0 15px 0 10px;
+}
+/* about me */
+.secondary-word {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.about {
+    display: flex;
+}
+
+.primary-text {
+    display: flex;
+    padding-left: 20px;
+}
 
 /* work */
+/* grid */
+
 .surf-report {
     background-image: url("../assets/images/surf-report.jpg");
     /* Image by <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=926822">StockSnap</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=926822">Pixabay</a> */
