@@ -81,3 +81,13 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
   }
+
+  /* hero/jumbotron */
+.hero {
+      background-image: url("../assets/images/hero.jpg");
+      height: 350px;
+      width: 100vw;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
