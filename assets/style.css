@@ -220,3 +220,26 @@ a {
 .run-buddy {
     display: inline;
 }
+
+/* footer */
+
+.contact-info ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 15px;
+}
+
+.contact-info ul li a {
+    padding: 10px 40px 10px 40px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: var(--primary-color);
+}
+
+.contact-info ul li a:hover {
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    border-radius: 20px;
+    text-shadow: none;
+  }
