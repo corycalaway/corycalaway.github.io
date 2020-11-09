@@ -116,6 +116,16 @@ header nav ul li a:hover {
       justify-content: flex-end;
       align-items: flex-end;
       margin-bottom: 15px;
+      justify-content: space-between;
+  }
+
+  .self {
+      background-image: url("../assets/images/self.jpg");
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      border-radius: 100px;
+      display: flex;
   }
 /* sections */
 .section-title {
