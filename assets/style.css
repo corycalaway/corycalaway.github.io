@@ -135,6 +135,7 @@ div.right-border {
 h3.section-title {
     text-align: right;
 }
+
 /* work */
 /* grid */
 .wrapper {
@@ -146,35 +147,86 @@ h3.section-title {
 }
 
 .surf-report {
-    background-image: url("../assets/images/surf-report.jpg");
     /* Image by <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=926822">StockSnap</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=926822">Pixabay</a> */
     grid-column: 1 / 7;
     grid-row: 1 / 5;
 }
 
+.surf-report a img {
+    height: 30vw;
+    width: 50vw;
+}
+
 .led-wall {
-    background-image: url("../assets/images/led-wall.jpg");
     /* Image by <a href="https://pixabay.com/users/michael_luenen-2998623/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1559179">Michael Bußmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1559179">Pixabay</a> */
     grid-column: 7 / 10;
     grid-row: 1 / 3;
 }
 
+.led-wall a img {
+    height: 13vw;
+    width: 25vw;
+}
+
+
 .calculator {
-    background-image: url("../assets/images/calculator.jpg");
     /* Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2953856">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2953856">Pixabay</a> */
     grid-column: 7 / 10;
     grid-row: 3 / 5;
 }
 
+.calculator a img {
+    height: 13vw;
+    width: 25vw;
+}
+
 .pastel-puzzels {
-    background-image: url("../assets/images/pastel-puzzles.jpg");
     /* Image by <a href="https://pixabay.com/users/mikesween-110121/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=226743">Mike Sweeney</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=226743">Pixabay</a> */
     grid-column: 1 / 4;
     grid-row:  5 / 7;
 }
 
+.pastel-puzzels a img {
+    height: 13vw;
+    width: 25vw;
+}
+
 .run-buddy {
-    background-image: url("../assets/images/run-buddy.jpg");
     grid-column: 4 / 7;
     grid-row: 5 / 7;
+}
+
+.run-buddy a img {
+    height: 13vw;
+    width: 25vw;
+}
+.img-text {
+    position: relative;
+    top: 60%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: inline;
+}
+
+.img-text h4, .img-text h5 {
+    background-color: var(--secondary-color);
+    display: inline;
+}
+
+h4 {
+    font-size: 2.2vw;
+    color: #1405e0d7;
+}
+
+h5 {
+    font-size:1.2vw;
+    color: #1405e0d7;
+}
+
+.image-text a {
+    background-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
 }
