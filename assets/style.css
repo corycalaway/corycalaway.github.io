@@ -18,7 +18,7 @@ h2 {
     color: var(--text-pop);
     padding: 0 40px;
     background-color: var(--primary-color);
-    border-radius: 15px;
+    border-radius: 1vw;
 }
 h4 {
     font-size: 46px;
@@ -110,13 +110,14 @@ header nav ul li a:hover {
 .hero {
       background-image: url("../assets/images/hero.jpg");
       /* <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566161">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566161">Pixabay</a> */
-      height: 350px;
+      height: 40vw;
       width: 100vw;
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
       margin-bottom: 15px;
       justify-content: space-between;
+      background-size: cover;
   }
 
   .self {
