@@ -198,8 +198,8 @@ h3.section-title {
   }
 
 
-.led-wall, .led-wall:hover {
-    background-image: url("../assets/images/led-wall.jpg");
+.taskMasterPro, .taskMasterPro:hover {
+    background-image: url("../assets/images/taskmaster_pro.png");
     background-size: 100% 100%;
     height: 250px;
 }
@@ -212,8 +212,8 @@ h3.section-title {
 }
 
 
-.pastel-puzzels, .pastel-puzzels:hover {
-    background-image: url("../assets/images/pastel-puzzles.jpg");
+.passwordGenerator, .passwordGenerator:hover {
+    background-image: url("../assets/images/password_generator.png");
     background-size: 100% 100%;
     height: 250px;
 }

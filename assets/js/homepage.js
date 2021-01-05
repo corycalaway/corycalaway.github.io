@@ -19,14 +19,16 @@ $('#linkWebsiteThree').on('click',function() {
     console.log('test')
 })
 
-// link click holder
+// link taskmaster pro
 
 $('#linkWebsiteFour').on('click',function() {
-    window.location.href = 'https://corycalaway.github.io/under-construction/';
+    window.location.href = 'https://corycalaway.github.io/taskmaster-pro/';
     console.log('test')
 })
 
+
+// link to password generator
 $('#linkWebsiteFive').on('click',function() {
-    window.location.href = 'https://corycalaway.github.io/under-construction/';
+    window.location.href = 'https://corycalaway.github.io/password-generator/';
     console.log('test')
 })
