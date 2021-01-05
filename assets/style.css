@@ -179,107 +179,50 @@ h3.section-title {
     position: relative;
 }
 
-.gamerPortal {
+/* hover over grid images */
+.gradient:hover {
+    content: "";
+    background: linear-gradient(rgba(252, 56, 219, 0.3), rgb(19, 73, 102));
+    opacity: .5;
+    transition: all 1s;
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+
+.gamerPortal, .gamerPortal:hover {
     background-image: url("../assets/images/gamer_portal.png");
     background-size: 100% 100%;
     height: 250px;
     margin: 0px 0px 100px 0px;
-
-}
-
-.gamerPortal.gradient:hover {
-    content: "";
-    background: linear-gradient(rgba(252, 56, 219, 0.3), rgb(19, 73, 102));
-    opacity: .5;
-    transition: all 1s;
-    background-size: 100% 100%;
-    height: 250px;
-    background-image: url("../assets/images/gamer_portal.png");
   }
 
-  .gamerPortal.gradient:hover .gamerPortal.gradient::after {
-      opacity: 1;
-  }
 
-.led-wall {
+.led-wall, .led-wall:hover {
     background-image: url("../assets/images/led-wall.jpg");
     background-size: 100% 100%;
     height: 250px;
 }
 
-.led-wall.gradient:hover {
-    content: "";
-    background: linear-gradient(rgba(252, 56, 219, 0.3), rgb(19, 73, 102));
-    opacity: .5;
-    transition: all 1s;
-    background-size: 100% 100%;
-    height: 250px;
-    background-image: url("../assets/images/led-wall.jpg");
-  }
 
-  .led-wall.gradient:hover .led-wall.gradient::after {
-      opacity: 1;
-  }
-
-.weatherPage {
+.weatherPage, .weatherPage:hover {
     background-image: url("../assets/images/weather-page.png");
     background-size: 100% 100%;
     height: 250px;
 }
 
-.weatherPage.gradient:hover {
-    content: "";
-    background: linear-gradient(rgba(252, 56, 219, 0.3), rgb(19, 73, 102));
-    opacity: .5;
-    transition: all 1s;
-    background-size: 100% 100%;
-    height: 250px;
-    background-image: url("../assets/images/weather-page.png");
-  }
 
-  .weatherPage.gradient:hover .weatherPage.gradient::after {
-      opacity: 1;
-  }
-
-.pastel-puzzels {
+.pastel-puzzels, .pastel-puzzels:hover {
     background-image: url("../assets/images/pastel-puzzles.jpg");
     background-size: 100% 100%;
     height: 250px;
 }
 
-.pastel-puzzels.gradient:hover {
-    content: "";
-    background: linear-gradient(rgba(252, 56, 219, 0.3), rgb(19, 73, 102));
-    opacity: .5;
-    transition: all 1s;
-    background-size: 100% 100%;
-    height: 250px;
-    background-image: url("../assets/images/pastel-puzzles.jpg");
-  }
-
-  .pastel-puzzels.gradient:hover .pastel-puzzles.gradient::after {
-      opacity: 1;
-  }
-
-.run-buddy {
+.run-buddy, .run-buddy:hover {
     background-image: url("../assets/images/run-buddy.jpg");
     background-size: 100% 100%;
     height: 250px;
 }
-
-.run-buddy.gradient:hover {
-    content: "";
-    background: linear-gradient(rgba(252, 56, 219, 0.3), rgb(19, 73, 102));
-    opacity: .5;
-    transition: all 1s;
-    background-size: 100% 100%;
-    height: 250px;
-    background-image: url("../assets/images/run-buddy.jpg");
-  }
-
-  .run-buddy.gradient:hover .run-buddy.gradient::after {
-      opacity: 1;
-  }
 
 .project-text {
     position: relative;
