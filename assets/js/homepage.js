@@ -5,9 +5,16 @@ $('#linkWebsiteOne').on('click',function() {
     console.log('test')
 })
 
-// link to led wall
+// link to run buddy wall
 
 $('#linkWebsiteTwo').on('click',function() {
     window.location.href = 'https://corycalaway.github.io/run-buddy/';
+    console.log('test')
+})
+
+// link to weather dashboard
+
+$('#linkWebsiteThree').on('click',function() {
+    window.location.href = 'https://corycalaway.github.io/weather-dashboard/';
     console.log('test')
 })
