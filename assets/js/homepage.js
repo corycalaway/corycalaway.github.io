@@ -8,6 +8,6 @@ $('#linkWebsiteOne').on('click',function() {
 // link to led wall
 
 $('#linkWebsiteTwo').on('click',function() {
-    window.location.href = 'https://corycalaway.github.io/gamer-portal/';
+    window.location.href = 'https://corycalaway.github.io/run-buddy/';
     console.log('test')
 })
