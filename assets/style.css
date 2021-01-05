@@ -181,8 +181,6 @@ h3.section-title {
 
 .surf-report {
     background-image: url("../assets/images/surf-report.jpg");
-    grid-column: 1 / 7;
-    grid-row: 1 / 5;
     background-size: cover;
 }
 
@@ -191,9 +189,7 @@ h3.section-title {
     height: 100%;
     width: 100%;
     background: linear-gradient(rgba(252, 56, 219, 0.3), rgb(19, 73, 102));
-    position: absolute;
-    top: 0;
-    left: 0;
+   
     opacity: .5;
     transition: all 1s;
     background-image: url(../assets/images/surf-report.jpg);
@@ -345,4 +341,8 @@ a {
     color: var(--primary-color);
     border-radius: 20px;
     text-shadow: none;
+  }
+
+  .gridFit {
+      margin: 20px;
   }
