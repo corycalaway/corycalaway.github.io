@@ -194,7 +194,8 @@ h3.section-title {
     opacity: .5;
     transition: all 1s;
     background-image: url("../assets/images/gamer_portal.png");
-    background-size: cover;
+    background-size: 100% 100%;
+    height: 250px;
   }
 
   .surf-report.gradient:hover .surf-report.gradient::after {
