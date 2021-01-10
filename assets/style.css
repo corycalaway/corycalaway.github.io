@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 h2 {
     font-size: 32px;
@@ -100,7 +100,7 @@ header nav ul li a {
     color: var(--primary-color);
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover, a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 15px;
@@ -111,7 +111,7 @@ header nav ul li a:hover {
 .hero {
       background-image: url("../assets/images/hero.jpg");
       /* <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566161">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566161">Pixabay</a> */
-      height: 40vw;
+      height: 15vw;
       width: 100%;
       display: flex;
       justify-content: flex-end;
@@ -193,8 +193,15 @@ h3.section-title {
 .gamerPortal, .gamerPortal:hover {
     background-image: url("../assets/images/gamer_portal.png");
     background-size: 100% 100%;
-    height: 250px;
+    height: 350px;
     margin: 0px 0px 100px 0px;
+    -webkit-text-stroke : .5px var(--quaternary-color);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
   }
 
 
@@ -202,6 +209,13 @@ h3.section-title {
     background-image: url("../assets/images/taskmaster_pro.png");
     background-size: 100% 100%;
     height: 250px;
+    -webkit-text-stroke : .5px var(--quaternary-color);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
 }
 
 
@@ -209,6 +223,13 @@ h3.section-title {
     background-image: url("../assets/images/weather-page.png");
     background-size: 100% 100%;
     height: 250px;
+    -webkit-text-stroke : .5px var(--quaternary-color);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
 }
 
 
@@ -216,12 +237,26 @@ h3.section-title {
     background-image: url("../assets/images/password_generator.png");
     background-size: 100% 100%;
     height: 250px;
+    -webkit-text-stroke : .5px var(--quaternary-color);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
 }
 
 .run-buddy, .run-buddy:hover {
     background-image: url("../assets/images/run-buddy.jpg");
     background-size: 100% 100%;
-    height: 250px;
+    height: 350px;
+    -webkit-text-stroke : .5px var(--quaternary-color);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
 }
 
 .project-text {
@@ -238,10 +273,6 @@ h3.section-title {
 
 a {
     text-decoration: none;
-}
-
-.run-buddy {
-    display: inline;
 }
 
 /* footer */
@@ -274,3 +305,14 @@ a {
   .gridSpace {
       margin: 10px;
   }
+
+  @media only screen and (max-width: 991px) {
+    .gamerPortal, .gamerPortal:hover {
+        background-image: url("../assets/images/gamer_portal.png");
+        background-size: 100% 100%;
+        height: 350px;
+        margin: 0px 0px 0px 0px;
+      }
+    }
+  
+ 
