@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #39a6b2;
-    --secondary-color: #042536;
-    --tertiary-color: #12171dd7;
-    --quaternary-color: #1a526e;
+    --primary-color: #ffffff;
+    --secondary-color: #202040;
+    --tertiary-color: #000000;
+    --quaternary-color: #000000;
     --text-pop: #02021ff8;
   }
   
@@ -33,6 +33,7 @@ h5 {
 
 body {
     background-color: var(--quaternary-color);
+    color: var(--primary-color);
 }
 /* flex box */
 .flex-row {
