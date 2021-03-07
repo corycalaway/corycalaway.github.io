@@ -8,7 +8,7 @@ $('#linkWebsiteOne').on('click',function() {
 // link to run buddy wall
 
 $('#linkWebsiteTwo').on('click',function() {
-    window.location.href = 'https://corycalaway.github.io/run-buddy/';
+    window.location.href = 'https://minimal-prepper.herokuapp.com/';
     console.log('test')
 })
 
