@@ -8,7 +8,7 @@ import Header from './Header'
 
 const PortfolioContainer = () => {
 
-    const [currentPage, handlePageChange] = useState('Home');
+    const [currentPage, handlePageChange] = useState('About');
 
     const renderPage = () => {
         switch(currentPage) {
