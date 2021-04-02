@@ -1,11 +1,21 @@
 import React from "react";
 
 const Resume = () => (
+  <>
+<div className="row d-flex justify-content-start">
+      <div className="col-sm-12 col-md-1 d-flex">
+        <a href={require(`../../assets/images/resume.pdf`).default} download>
 
-  <div className="container">
+          <img src={require(`../../assets/images/PDF_file_icon.svg`).default} alt="resume-pdf" width="104" height="142" className='icon-size '/>
+<p className="d-flex justify-content-center"> Download <br/> Resume</p>
+</a>
+      </div>
+    </div>
+  
+  <div className="container ">
 
-    <div className="row">
-      <div className="col-lg-12 col-xl-3">
+    <div className="row d-flex justify-content-center">
+      <div className="col-lg-12 col-xl-3 ">
         <p> Cory Calaway
         <br />
         Web Developer
@@ -36,17 +46,9 @@ const Resume = () => (
 
     </div>
 
-    <div className="row">
-      <div className="col-sm-12 col-md-1">
-        <a href={require(`../../assets/images/resume.pdf`).default} download>
-
-          <img src={require(`../../assets/images/PDF_file_icon.svg`).default} alt="resume-pdf" width="104" height="142" className='icon-size' />
-Download Resume
-</a>
-      </div>
-    </div>
+    
     <br />
-    <div className="row">
+    <div className="row d-flex justify-content-center">
       <div className="col-md-3">
 <p>
         <br />
@@ -112,7 +114,7 @@ Tools: JavaScript, CSS, HTML, Materialize, and Luxon
 </p>
 </div>
     </div>
-    <div className="row">
+    <div className="row d-flex justify-content-center">
       <div className="col-md-10">
         <br />
 <p>
@@ -155,6 +157,7 @@ Consistently chosen for special assignments above others within the peer group, 
     </div>
 
   </div>
+  </>
 );
 
 export default Resume;

@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer id="contact-me" className="flex-section">
-        <div className="right-border">
+        <footer id="contact-me" className="flex-section container d-flex justify-content-center">
+        {/* <div className="right-border">
             <h3 className="section-title">Contact<br />Me</h3>
-        </div>
+        </div> */}
         <address className="contact-info">
             <ul>
                 <li>
