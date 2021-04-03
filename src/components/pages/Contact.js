@@ -31,9 +31,10 @@ function Contact() {
           }
       }
       // setFormState({ ...formState, name: e.target.value })
-      setFormState({ ...formState, [e.target.name]: e.target.value })
+      // setFormState({ ...formState, [e.target.name]: e.target.value })
 
       console.log('errorMessage', errorMessage);
+
       if (!errorMessage) {
 
           setFormState({ ...formState, [e.target.name]: e.target.value });
@@ -69,7 +70,7 @@ function Contact() {
               <div>
                   <label htmlFor="email">Email address:</label>
                   <br/>
-                  <input type="email" name="email" defaultValue={email} onBlur={handleChange} className="boxsmwidth"/>
+                  <input type="email" name="email" defaultValue={email} onBlur={handleChange} onChange={handleChange}className="boxsmwidth"/>
               </div>
               <div>
                   <label htmlFor="message">Message:</label>
