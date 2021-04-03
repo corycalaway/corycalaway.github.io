@@ -126,22 +126,22 @@ const Contact = () => {
         <h1 data-testid="Contact me" >Contact me</h1>
         
      
-        <form id="contact-form" method="post" data-netlify="true" action="/thank-you" onSubmit={handleSubmit}>
-
+        <form id="contact-form" action="POST" name="contact" method="post" data-netlify="true" onSubmit={handleSubmit}>
+        <input type="hidden" name="form-name" value="contact" />
           <div>
             <label htmlFor="name">Name:</label>
             <br />
-            <input type="text" name="name" defaultValue={name} onBlur={handleChange} className="boxsmwidth" />
+            <input type="text" id="name" name="name" defaultValue={name} onBlur={handleChange} className="boxsmwidth" />
           </div>
           <div>
             <label htmlFor="email">Email address:</label>
             <br />
-            <input type="email" name="email" defaultValue={email} onBlur={handleChange} onChange={handleChange} className="boxsmwidth" />
+            <input type="email" id="email" name="email" defaultValue={email} onBlur={handleChange} onChange={handleChange} className="boxsmwidth" />
           </div>
           <div>
             <label htmlFor="message">Message:</label>
             <br />
-            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} className="boxwidth" />
+            <textarea name="message" id="message" rows="5" defaultValue={message} onBlur={handleChange} className="boxwidth" />
             {errorMessage && (
               <div>
                 <p className="error-text">{errorMessage}</p>
