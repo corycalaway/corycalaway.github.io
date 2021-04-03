@@ -103,12 +103,14 @@ const Contact = () => {
   // const [projectType, setProjectType] = useState("")
   // const [comments, setComments] = useState("")
   function encode(data) {
+    console.log(data)
     return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
       .join("&")
   }
 
  const handleSubmit = e => {
+   console.log(e)
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
