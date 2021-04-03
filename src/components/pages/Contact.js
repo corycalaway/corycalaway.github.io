@@ -94,7 +94,7 @@ function Contact() {
   //   }
   async function callAPI(mail) {
     console.log(mail)
-    fetch("http://localhost:9000/testAPI", {
+    fetch("http://localhost:9000/emailApi", {
       method: "POST",
       body: JSON.stringify(mail),
       headers: {
