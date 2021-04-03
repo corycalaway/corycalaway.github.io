@@ -131,17 +131,17 @@ const Contact = () => {
           <div>
             <label htmlFor="name">Name:</label>
             <br />
-            <input type="text" id="name" name="name" defaultValue={name} onBlur={handleChange} className="boxsmwidth" />
+            <input type="text" id="name" value={name}  name="name" defaultValue={name} onBlur={handleChange} className="boxsmwidth" />
           </div>
           <div>
             <label htmlFor="email">Email address:</label>
             <br />
-            <input type="email" id="email" name="email" defaultValue={email} onBlur={handleChange} onChange={handleChange} className="boxsmwidth" />
+            <input type="email" id="email" value={email} name="email" defaultValue={email} onBlur={handleChange} onChange={handleChange} className="boxsmwidth" />
           </div>
           <div>
             <label htmlFor="message">Message:</label>
             <br />
-            <textarea name="message" id="message" rows="5" defaultValue={message} onBlur={handleChange} className="boxwidth" />
+            <textarea name="message" id="message" value={message}  rows="5" defaultValue={message} onBlur={handleChange} className="boxwidth" />
             {errorMessage && (
               <div>
                 <p className="error-text">{errorMessage}</p>
