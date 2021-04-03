@@ -131,7 +131,7 @@ function Contact() {
 
 
 
-        callAPI(mail)
+        // callAPI(mail)
         // console.log(emailSend())
         //  emailSend()
         //  sendEmail()
