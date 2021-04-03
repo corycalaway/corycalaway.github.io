@@ -124,8 +124,9 @@ const Contact = () => {
     return (
       <section className="container">
         <h1 data-testid="Contact me" >Contact me</h1>
-
-        <form id="contact-form" method="post" action="/thank-you" data-netlify="true" onSubmit={handleSubmit}>
+        
+     
+        <form id="contact-form" method="post" data-netlify="true" action="/thank-you" onSubmit={handleSubmit}>
 
           <div>
             <label htmlFor="name">Name:</label>
