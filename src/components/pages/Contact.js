@@ -103,12 +103,14 @@ const Contact = () => {
   // const [projectType, setProjectType] = useState("")
   // const [comments, setComments] = useState("")
   function encode(data) {
+    console.log(data)
     return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
       .join("&")
   }
 
  const handleSubmit = e => {
+   console.log(e)
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -122,7 +124,8 @@ const Contact = () => {
     return (
       <section className="container">
         <h1 data-testid="Contact me" >Contact me</h1>
-        <form id="contact-form" onSubmit={handleSubmit}>
+
+        <form id="contact-form" method="post" action="/thank-you" data-netlify="true" onSubmit={handleSubmit}>
 
           <div>
             <label htmlFor="name">Name:</label>
