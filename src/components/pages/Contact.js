@@ -1,3 +1,4 @@
+import { nearer } from 'q';
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
@@ -18,6 +19,7 @@ function Contact() {
 
               setErrorMessage('Your email is invalid.');
           } else {
+      
               setErrorMessage('');
           }
           // isValid conditional statement
@@ -36,11 +38,22 @@ function Contact() {
 
           setFormState({ ...formState, [e.target.name]: e.target.value });
       }
+      
   }
 
   function handleSubmit(e) {
       e.preventDefault();
       console.log(formState);
+      //clear submit form data
+      e.target.email.value = ''
+      e.target.name.value = ''
+      e.target.message.value = ''
+
+      console.log(e.target.name)
+      console.log(e.target.email.value)
+      
+      
+
   }
 
   return (
