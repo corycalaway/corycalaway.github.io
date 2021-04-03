@@ -6,12 +6,20 @@ require('dotenv').config();
 router.post("/", ({body}, res, next) => {
     
 
- console.log(body.name)
-  async function emailSend() {
+ console.log(body.email)
+//   async function emailSend() {
+//     let transporter = nodemailer.createTransport({
+//         host: "smtp.ethereal.email",
+//         port: 587,
+//         secure: false, // true for 465, false for other ports
+//         auth: {
+//             user: process.env.EMAIL, // generated ethereal user
+//             pass: process.env.PASSWORD, // generated ethereal password
+//         },
+//     });
+async function emailSend() {
     let transporter = nodemailer.createTransport({
-        host: "smtp.ethereal.email",
-        port: 587,
-        secure: false, // true for 465, false for other ports
+        service: 'gmail',
         auth: {
             user: process.env.EMAIL, // generated ethereal user
             pass: process.env.PASSWORD, // generated ethereal password
@@ -20,9 +28,9 @@ router.post("/", ({body}, res, next) => {
 
     let info = await transporter.sendMail({
         from: body.email, // sender address
-        to: "dane65@ethereal.email", // list of receivers
+        to: "sueno101@gmail.com", // list of receivers
         subject: body.name, // Subject line
-        text: body.message, // plain text body
+        text: "Name: " + body.name + " Email: " + body.email + "Message: " + body.message, // plain text body
         // html: "<b>Hello world?</b>", // html body
     });
 
@@ -30,7 +38,7 @@ router.post("/", ({body}, res, next) => {
         if (err) {
             console.log('err')
         } else {
-            console.log('yay')
+            console.log('Email Sent!')
         }
     })
 }
