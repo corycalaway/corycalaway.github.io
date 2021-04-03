@@ -102,8 +102,8 @@ function Contact() {
         "Content-Type": "application/json"
       }
     })
-    .then(res => res.text())          // convert to plain text
-    .then(text => console.log(text))
+    .then(res => res.text())        
+    .then(text => console.log(text))}
     //  .then(response => {
     //   console.log(response)
     //   return response.json();
@@ -115,7 +115,7 @@ function Contact() {
       //   console.log(res)
       //   setState({ apiResponse: res })})
       // .catch(err => err);
-    }
+    
 
   async function handleSubmit(e) {
         e.preventDefault();
