@@ -114,7 +114,7 @@ header nav ul li a {
   color: var(--primary-color);
 }
 
-header nav ul li a:hover, a:hover {
+header nav ul li a:hover {
   background: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 15px;
@@ -251,20 +251,8 @@ a {
   color: var(--primary-color);
 }
 
-.contact-info ul li a:hover {
-  background: var(--tertiary-color);
-  color: var(--primary-color);
-  border-radius: 20px;
-  text-shadow: none;
-}
 
-.gridFit {
-    margin: 20px;
-}
 
-.gridSpace {
-    margin: 10px;
-}
 
 img {
   
@@ -302,7 +290,7 @@ p {
 
 .selfImage {
   margin: 0rem 5rem;
-  
+  opacity: 90%;
 }
 
 .selfImage1 {
@@ -327,6 +315,17 @@ width: 50%;
   height: auto; 
 }
 
+.gradients {
+
+}
+.gradients:hover {
+  opacity: 50%; 
+  background: #007ea7
+ 
+}
+
+
+
 @media only screen and (max-width: 500px) {
   .mediaIcon {
     height: 80%;
@@ -347,38 +346,11 @@ width: 50%;
     font-size: 1.55vw;
     color: var(--primary-color);
 }
-/* img.miniScreen {
-  
-  width: 200px;
-  height: 100%;
-} */
+
 .side-space {
   margin: 0px;
 }
-
-
-
-  /* .selfImage {
-    margin: 0rem 5rem;
   }
-  
-  .selfImage1 {
-    width: 25rem;
-    border-radius: 20px;
-  } */
-  }
-/* img.landscape {
- height: 100%;
- width: auto;
-} */
 
-/* @media only screen and (max-width: 991px) {
-  .gamerPortal, .gamerPortal:hover {
-      background-image: url("../assets/images/gamer_portal.png");
-      background-size: 100% 100%;
-      height: 350px;
-      margin: 0px 0px 0px 0px;
-    }
-  } */
 
 

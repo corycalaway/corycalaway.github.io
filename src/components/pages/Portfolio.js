@@ -53,16 +53,16 @@ const Portfolio = () => {
         <div className="row row-space">
 
           {projects.map((image, i) => (
-            <div className="square card col-sm-12 col-md" >
-              <a href={image.deploy}>
-              <div className='titleText'>{image.title}</div>
-              <a href={image.deploy}></a>
-              <img className="portfolioSize" src={require(`../../assets/images/${image.name}.png`).default}
-                alt={image.name}
-                key={uuidv4()}
+            <div id="portfolioChange" className="square gradients card col-sm-12 col-md" >
+              <a className='imagehide' href={image.deploy}>
+                <div className='titleText'>{image.title}</div>
+                {/* <a href={image.deploy}></a> */}
+                <img className="portfolioSize" src={require(`../../assets/images/${image.name}.png`).default}
+                  alt={image.name}
+                  key={uuidv4()}
 
-              />
-  </a>
+                />
+              </a>
             </div>
           ))}
 
@@ -71,17 +71,18 @@ const Portfolio = () => {
         <div className="row row-space">
 
           {projects1.map((image, i) => (
-          <div className="square card col-sm-12 col-md">
-            <div className='titleText'>{image.title}</div>
-            <a href={image.deploy}>
-            <img className="" src={require(`../../assets/images/${image.name}.png`).default}
-              alt={image.name}
-              key={uuidv4()}
+            <div id="portfolioChange" className="square gradients card col-sm-12 col-md" >
+              <a className='imagehide' href={image.deploy}>
+                <div className='titleText'>{image.title}</div>
+                {/* <a href={image.deploy}></a> */}
+                <img className="portfolioSize" src={require(`../../assets/images/${image.name}.png`).default}
+                  alt={image.name}
+                  key={uuidv4()}
 
-            />
-          </a>
-          </div>
-        ))}
+                />
+              </a>
+            </div>
+          ))}
         </div>
 
       </div>
