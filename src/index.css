@@ -165,56 +165,6 @@ h3.section-title {
 
 /* work */
 /* grid */
-.wrapper {
-  margin: 15px 0 0 20px; 
-  display: grid;
-  grid-template-columns: repeat(9, 8vw);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  position: relative;
-}
-
-/* hover over grid images */
-.gradient:hover {
-  content: "";
-  background: linear-gradient(rgba(252, 56, 219, 0.3), rgb(19, 73, 102));
-  opacity: .5;
-  transition: all 1s;
-  background-size: 100% 100%;
-  height: 250px;
-}
-
-
-.gamerPortal, .gamerPortal:hover {
-  
-  background-size: 100% 100%;
-  height: 350px;
-  margin: 0px 0px 100px 0px;
-  -webkit-text-stroke : .5px var(--quaternary-color);
-  border-radius: 15px;
-  font-size: 25px;
-  font-weight: bold;
-  justify-content: flex-end;
-  align-items: flex-end;
-  display: flex;
-}
-
-
-.taskMasterPro, .taskMasterPro:hover {
-
-  background-size: 100% 100%;
-  height: 250px;
-  -webkit-text-stroke : .5px var(--quaternary-color);
-  border-radius: 15px;
-  font-size: 25px;
-  font-weight: bold;
-  justify-content: flex-end;
-  align-items: flex-end;
-  display: flex;
-}
-
-
-
 
 
 
@@ -244,12 +194,7 @@ a {
   padding: 15px;
 }
 
-.contact-info ul li a {
-  padding: 10px 40px 10px 40px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-  color: var(--primary-color);
-}
+
 
 
 
@@ -324,8 +269,33 @@ width: 50%;
  
 }
 
+.portfolioSize:hover {
+  opacity: 30%;
+}
 
+.wrapper {
+  margin: 15px 0 0 20px; 
+  display: grid;
+  grid-template-columns: repeat(9, 8vw);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  position: relative;
+}
 
+/* hover over grid images */
+.gradients:hover {
+  content: "";
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,23,31,1) 35%, rgba(0,126,167,1) 100%);
+  opacity: .5;
+  transition: all 1s;
+  background-size: 100% 100%;
+  
+}
+/* ffffff
+00171f
+003459
+007ea7
+00a8e8 */
 @media only screen and (max-width: 500px) {
   .mediaIcon {
     height: 80%;
