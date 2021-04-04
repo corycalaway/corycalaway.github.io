@@ -91,7 +91,7 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
-// {projects.map((image, i) => (
+
 //   <div className="square col">
 
 //   <img src={require(`../../assets/images/${i}.png`).default} 
