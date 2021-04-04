@@ -7,30 +7,36 @@ const Portfolio = () => {
   const [projects] = useState([
     {
       name: '0',
-      key: uuidv4()
+      key: uuidv4(),
+      deploy: "https://corycalaway.github.io/gamer-portal/"
     },
     {
       name: '1',
-      key: uuidv4()
+      key: uuidv4(),
+      deploy: "https://minimal-prepper.herokuapp.com/"
     },
     {
       name: '2',
-      key: uuidv4()
+      key: uuidv4(),
+      deploy: "https://corycalaway.github.io/taskmaster-pro/"
     }
   ]);
 
   const [projects1] = useState([
     {
       name: '3',
-      key: uuidv4()
+      key: uuidv4(),
+      deploy: "https://corycalaway.github.io/weather-dashboard/"
     },
     {
       name: '4',
-      key: uuidv4()
+      key: uuidv4(),
+      deploy: "https://corycalaway.github.io/password-generator/"
     },
     {
       name: '5',
-      key: uuidv4()
+      key: uuidv4(),
+      deploy: "https://corycalaway.github.io/food-festival/"
     }
   ]);
 
@@ -41,14 +47,14 @@ const Portfolio = () => {
         <div className="row row-space">
 
           {projects.map((image, i) => (
-            <div className="square col">
-
+            <div className="square col" >
+              <a href={image.deploy}>
               <img src={require(`../../assets/images/${image.name}.png`).default}
                 alt={image.name}
                 key={uuidv4()}
 
               />
-
+  </a>
             </div>
           ))}
 
@@ -58,13 +64,13 @@ const Portfolio = () => {
 
           {projects1.map((image, i) => (
           <div className="square col">
-
+            <a href={image.deploy}>
             <img src={require(`../../assets/images/${image.name}.png`).default}
               alt={image.name}
               key={uuidv4()}
 
             />
-
+          </a>
           </div>
         ))}
         </div>

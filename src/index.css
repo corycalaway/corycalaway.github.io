@@ -234,7 +234,7 @@ a {
 /* footer */
 
 .contact-info ul {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   list-style: none;
   padding: 15px;
@@ -286,6 +286,18 @@ img {
 .boxwidth {
   width: 100%;
 }
+
+.mediaIcon {
+  height: 25%;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .mediaIcon {
+    height: 80%;
+    padding: 0px;
+  }
+  }
 /* img.landscape {
  height: 100%;
  width: auto;
