@@ -66,10 +66,10 @@ const Contact = () => {
   //     return response.json();
   //   });
   // };
-  let handleChange = e => setFormState({ [e.target.name]: e.target.value });
+  // let handleChange = e => setFormState({ [e.target.name]: e.target.value });
 
 
-  function handleBlur(e) {
+  function handleChange(e) {
 
     console.log(e)
 
@@ -78,11 +78,11 @@ const Contact = () => {
       console.log(isValid);
       // isValid conditional statement
       if (!isValid) {
-
+        setFormState({ ...formState, [e.target.name]: e.target.value });
         setErrorMessage('Your email is invalid.');
       } else {
 
-        console.log(e.target.name)
+    setFormState({ ...formState, [e.target.name]: e.target.value });
       }
       // isValid conditional statement
     } else {
@@ -136,17 +136,17 @@ const Contact = () => {
           <div>
             <label htmlFor="name">Name:</label>
             <br />
-            <input type="text" value={name}  name="name" onBlur={handleBlur} onChange={handleChange}  className="boxsmwidth" />
+            <input type="text" value={name}  name="name" onBlur={handleChange} onChange={handleChange}  className="boxsmwidth" />
           </div>
           <div>
             <label htmlFor="email">Email address:</label>
             <br />
-            <input type="email"  value={email} name="email" onBlur={handleBlur} onChange={handleChange}  className="boxsmwidth" />
+            <input type="email"  value={email} name="email" onBlur={handleChange} onChange={handleChange}  className="boxsmwidth" />
           </div>
           <div>
             <label htmlFor="message">Message:</label>
             <br />
-            <textarea name="message"  value={message}  rows="5" onBlur={handleBlur} onChange={handleChange}   className="boxwidth" />
+            <textarea name="message"  value={message}  rows="5" onBlur={handleChange} onChange={handleChange}   className="boxwidth" />
             {errorMessage && (
               <div>
                 <p className="error-text">{errorMessage}</p>
