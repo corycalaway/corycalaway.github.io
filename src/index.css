@@ -237,13 +237,13 @@ width: 50%;
 
 
 .gradients:hover {
-  opacity: 50%; 
+  opacity: .5; 
   background: #007ea7
  
 }
 
 .portfolioSize:hover {
-  opacity: 30%;
+  opacity: .3;
 }
 
 .wrapper {
