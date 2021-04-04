@@ -47,9 +47,9 @@ const Portfolio = () => {
         <div className="row row-space">
 
           {projects.map((image, i) => (
-            <div className="square col" >
+            <div className="square col-sm-12 col-md-4" >
               <a href={image.deploy}>
-              <img src={require(`../../assets/images/${image.name}.png`).default}
+              <img className="" src={require(`../../assets/images/${image.name}.png`).default}
                 alt={image.name}
                 key={uuidv4()}
 
@@ -63,9 +63,9 @@ const Portfolio = () => {
         <div className="row row-space">
 
           {projects1.map((image, i) => (
-          <div className="square col">
+          <div className="square col-sm-12 col-md-4">
             <a href={image.deploy}>
-            <img src={require(`../../assets/images/${image.name}.png`).default}
+            <img className="" src={require(`../../assets/images/${image.name}.png`).default}
               alt={image.name}
               key={uuidv4()}
 

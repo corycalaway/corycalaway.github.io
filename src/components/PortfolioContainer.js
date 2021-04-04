@@ -4,6 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Header from './Header'
+import Hero from './Hero';
 
 
 const PortfolioContainer = () => {
@@ -13,7 +14,12 @@ const PortfolioContainer = () => {
     const renderPage = () => {
         switch(currentPage) {
           case "About":
-            return <About />
+            return (
+              <>
+            {/* <Hero /> */}
+            <About />
+            </>
+            )
           case "Portfolio":
             return <Portfolio />;
             case "Contact":
@@ -29,6 +35,7 @@ const PortfolioContainer = () => {
           <Header currentPage={currentPage} handlePageChange={handlePageChange} />
           <div>
             {
+
               <div>{renderPage()}</div>
               
               // Render the component returned by 'renderPage()'

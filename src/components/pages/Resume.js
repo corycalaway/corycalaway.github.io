@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => (
   <>
-<div className="row d-flex justify-content-start">
+<div className="row d-flex justify-content-center">
       <div className="col-sm-12 col-md-1 d-flex">
         <a href={require(`../../assets/images/resume.pdf`).default} download>
 
