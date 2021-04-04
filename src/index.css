@@ -235,9 +235,7 @@ width: 50%;
   height: auto; 
 }
 
-.gradients {
 
-}
 .gradients:hover {
   opacity: 50%; 
   background: #007ea7
@@ -282,9 +280,7 @@ width: 50%;
       border-radius: 20px;
     }
 
-  .primary-text {
-
-  }
+ 
   .contact-info ul li a {
      padding: 0px 0px 0px 0px; 
     font-weight: lighter;
