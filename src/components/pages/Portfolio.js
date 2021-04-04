@@ -57,7 +57,7 @@ const Portfolio = () => {
               <a href={image.deploy}>
               <div className='titleText'>{image.title}</div>
               <a href={image.deploy}></a>
-              <img className="" src={require(`../../assets/images/${image.name}.png`).default}
+              <img className="portfolioSize" src={require(`../../assets/images/${image.name}.png`).default}
                 alt={image.name}
                 key={uuidv4()}
 

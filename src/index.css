@@ -5,7 +5,11 @@
   --quaternary-color: #000000;
   --text-pop: #02021ff8;
 }
-
+/* ffffff
+00171f
+003459
+007ea7
+00a8e8 */
 /* remove default margins and padding */
 * {
   margin: 0;
@@ -313,7 +317,16 @@ width: 50%;
 
 .card {
   margin: 20px;
+  border: 10px;
+    border-color: #007ea7;
+    border-style: solid;
 }
+
+.portfolioSize {
+  
+  height: auto; 
+}
+
 @media only screen and (max-width: 500px) {
   .mediaIcon {
     height: 80%;
