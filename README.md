@@ -1,15 +1,41 @@
-# Cory Calaway Portfolio
+# Portfolio
 
-## About Me / Projects
+![badge](https://img.shields.io/badge/License-MIT_License-brightgreen)    
+## Description
+Personal web portfolio to showcase projects that I have created.
 
-- About Me section with short bio.
-- Links to projects.
-- Contact information.
+## Table of Contents
+* [License Information](#license-information)
+* [Links](#links)
+* [Development Tools](#development-tools)
+* [Screen Shots](#portfolio-page)
+* [Contact](#questions)
 
-### Link
+## License Information
+Licensed under the [MIT_License](LICENSE)
 
-[Deployed application](https://corycalaway.github.io/)
+## Development Tools
+* React
+* Node
+* Javascript
+* CSS
+* HTML
+
+### Links
+
+[Deployed Webpage](https://corycalaway.com/)
+<br />
+
+[Deployed GitHub](https://corycalaway.github.io/)
 
 ### Portfolio Page
 
-![Screenshot-of-website](assets/images/page.png)
+![Screenshot-of-about](/src/assets/images/aboutpage.png)
+![Screenshot-of-contact](/src/assets/images/contactpage.png)
+![Screenshot-of-portfolio](/src/assets/images/portfoliopage.png)
+![Screenshot-of-resume](/src/assets/images/resumepage.png)
+
+### Questions
+- For further questions please reach out through the following:
+    - Email: cory.c.calaway@gmail.com
+    - GitHub: https://github.com/corycalaway/Portfolio

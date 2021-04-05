@@ -57,6 +57,10 @@ const Contact = () => {
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
+      console.log(e.target.name.value)
+      e.target.name.value = ''
+      e.target.email.value = ''
+      e.target.message.value = ''
     e.preventDefault();
   };
 
