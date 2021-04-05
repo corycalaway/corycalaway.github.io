@@ -53,10 +53,9 @@ const Portfolio = () => {
         <div className="row row-space">
 
           {projects.map((image, i) => (
-            <div id="portfolioChange" className="square gradients card col-sm-12 col-md" >
-              <a className='imagehide' href={image.deploy}>
-                <div className='titleText'>{image.title}</div>
-                {/* <a href={image.deploy}></a> */}
+            <div id="portfolioChange" key={uuidv4()} className="square gradients card col-sm-12 col-md" >
+              <a className='imagehide'  href={image.deploy}>
+                <div className='titleText' >{image.title}</div>
                 <img className="portfolioSize" src={require(`../../assets/images/${image.name}.png`).default}
                   alt={image.name}
                   key={uuidv4()}
@@ -71,10 +70,9 @@ const Portfolio = () => {
         <div className="row row-space">
 
           {projects1.map((image, i) => (
-            <div id="portfolioChange" className="square gradients card col-sm-12 col-md" >
-              <a className='imagehide' href={image.deploy}>
-                <div className='titleText'>{image.title}</div>
-                {/* <a href={image.deploy}></a> */}
+            <div id="portfolioChange" key={uuidv4()}  className="square gradients card col-sm-12 col-md" >
+              <a className='imagehide'  href={image.deploy}>
+                <div className='titleText' >{image.title}</div>
                 <img className="portfolioSize" src={require(`../../assets/images/${image.name}.png`).default}
                   alt={image.name}
                   key={uuidv4()}
@@ -91,70 +89,3 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
-
-//   <div className="square col">
-
-//   <img src={require(`../../assets/images/${i}.png`).default} 
-//   alt={i} 
-//   key={uuidv4()}
-
-//   /> 
-
-// </div>
-// ))}
-
-// {projects.forEach((project) => (
-//   <div className="square col">
-
-//   <img src={require(`../../assets/images/${project.name}.png`).default} 
-//   alt='image'
-//   key={uuidv4()}
-
-//   /> 
-
-// </div>
-// ))}
-
-// return (
-//   <>
-//     <div className="side-space">
-//       <div className="row row-space">
-
-
-
-
-//         // {projects.map((image, i) => (
-//         <div className="square col">
-
-//           <img src={require(`../../assets/images/${i}.png`).default}
-//             alt={image.name}
-//             key={uuidv4()}
-
-//           />
-
-//         </div>
-//       ))}
-
-//         <div className="square col">
-//           <img src={require(`../../assets/images/password_generator.png`).default} className="landscape" alt="Image" />
-//         </div>
-//         <div className="square col">
-//           <img src={require(`../../assets/images/password_generator.png`).default} className="landscape" alt="Image" />
-//         </div>
-//       </div>
-//       <div className="row row-space">
-//         <div className="square col">
-//           <img src={require(`../../assets/images/password_generator.png`).default} alt="Image" />
-//         </div>
-//         <div className="square col">
-//           <img src={require(`../../assets/images/password_generator.png`).default} className="landscape" alt="Image" />
-//         </div>
-//         <div className="square col">
-//           <img src={require(`../../assets/images/password_generator.png`).default} className="landscape" alt="Image" />
-//         </div>
-//       </div>
-
-
-//     </div>
-//   </>
-// );

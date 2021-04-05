@@ -1,5 +1,4 @@
 import React from 'react'
-import background from "../assets/images/linkedin.svg"
 
 const Header = (props) => {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];

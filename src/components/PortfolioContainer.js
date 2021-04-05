@@ -4,7 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Header from './Header'
-import Hero from './Hero';
+
 
 
 const PortfolioContainer = () => {

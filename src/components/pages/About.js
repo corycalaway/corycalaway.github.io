@@ -9,14 +9,14 @@ const About = () => (
         <div className="container-fluid">
         
         <div className="row selfImage" >
-            <div className="col selfImage1">
+            <div className="col-sm-12 col-md selfImage1">
                             <img className="col selfImage1" src={require(`../../assets/images/self.jpg`).default}
                                 alt='GitHub'
                                 key={uuidv4()}
 
                             />
                         </div>
-                    <p className="col-8 primary-text">
+                    <p className="col-sm-12 col-md-8 primary-text">
                         
                     
                         

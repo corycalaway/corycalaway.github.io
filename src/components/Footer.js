@@ -4,14 +4,10 @@ import { v4 as uuidv4 } from 'uuid'
 const Footer = () => {
     return (
         <footer id="contact-me" className=" container d-flex justify-content-center">
-            {/* <div className="right-border">
-            <h3 className="section-title">Contact<br />Me</h3>
-        </div> */}
+          
             <address className="contact-info">
                 <ul className="row">
-                    {/* <li className="col">
-                        <p><a href="tel:801-234-9770">801.234.9770</a></p>
-                    </li> */}
+                 
                     <li className="col-3 mediaIcon">
                         <p><a href="mailto: cory.c.calaway@gmail.com">
                         <img src={require(`../assets/images/email.svg`).default}
