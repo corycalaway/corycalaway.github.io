@@ -25,6 +25,7 @@ const Contact = () => {
       }
       // isValid conditional statement
     } else {
+      // look into adding formstate here
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {

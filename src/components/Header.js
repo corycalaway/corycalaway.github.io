@@ -8,7 +8,7 @@ const Header = (props) => {
           
         <h1>
             <span className="name">
-                <a href="/">Cory Calaway</a>
+                <a className="name" href="/">Cory Calaway</a>
             </span>
         </h1>
 
