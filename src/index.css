@@ -65,7 +65,19 @@ body {
   text-align: right;
 }
 
+.secondaryText {
+  color: black;
+}
 
+.portfolioText {
+  color: black;
+  font-size: 
+  .4rem;
+}
+.portfolioText:hover {
+  color: black;
+  font-size: 1rem;
+}
 /* header start */
 header {
   padding: 20px 35px;
