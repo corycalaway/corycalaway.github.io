@@ -86,6 +86,20 @@ Handlebars
         <br />
         <p>
 PROJECTS
+<br/>
+OnlyMemes:
+<br/>
+GitHub: https://github.com/corycalaway
+<br/>
+Heroku: https://onlymemes.herokuapp.com/
+<br/>
+<br/>
+Summary: Meme collection and sharing Web Application. Users have the ability to create accounts and purchase meme coins through Stripe.
+<br/>
+Role: Full stack developer.
+<br/>
+Tools: MERN, Stripe, React-Bootstrap, React-Spring.
+<br/>
 <br />
 The Minimal Prepper:
 <br />
