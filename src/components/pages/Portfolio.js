@@ -8,7 +8,7 @@ const Portfolio = () => {
     {
       name: 'onlymemes',
       key: uuidv4(),
-      deploy: "https://thawing-sands-66720.herokuapp.com/",
+      deploy: "https://onlymemes.herokuapp.com/",
       title: "OnlyMemes",
       github: "https://github.com/corycalaway/only_memes",
       description: "OnlyMemes is a Web Application for collecting specialized memes. User's are able to purchase meme coin to buy random packs of memes.",
@@ -77,6 +77,7 @@ const Portfolio = () => {
               <div id="portfolioChange" key={uuidv4()} className="square gradients card col-sm-12 col-md" >
                 <div className='regText' >{image.title}</div>
                 <a className='titleText' href={image.deploy}>
+                  
                   <img className="portfolioSize" src={require(`../../assets/images/${image.name}.png`).default}
                     alt={image.name}
                     key={uuidv4()}
