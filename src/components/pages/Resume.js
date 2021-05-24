@@ -4,7 +4,7 @@ const Resume = () => (
   <>
 <div className="row d-flex justify-content-center">
       <div className="col-sm-12 col-md-1 d-flex">
-        <a href={require(`../../assets/images/resume.pdf`).default} download>
+        <a href={require(`../../assets/images/CoryCalawayWebDeveloperResume.pdf`).default} download>
 
           <img src={require(`../../assets/images/PDF_file_icon.svg`).default} alt="resume-pdf" width="104" height="142" className='icon-size '/>
 <p className="d-flex justify-content-center"> Download <br/> Resume</p>
